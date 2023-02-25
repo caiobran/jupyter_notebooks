@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jupyter-notebooks"
+version = "0.1.0"
+description = ""
+authors = ["caiobran <caiobran88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jupyter_notebooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.1"
+webdriver-manager = "^3.8.5"
+selenium = "^4.8.0"
+pandas = "^1.5.3"
+lxml = "^4.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
